@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Examen práctico" />
+	<meta name="keywords" content="HTML5, CSS3, Javascript, Formulario, Nombre, Apellidos, Email, Móvil, Entrada, Salida, Adultos, Niños, Bebés" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+	<title>Examen práctico</title>
+</head>
+<body>
+<div id="menu">
+	<nav>
+		<div class="iconohotel"><i class="fas fa-hotel fa-2x"></i></div>
+
+		<ul>
+			<li><a href="index.html">Habitaciones</a></li>
+			<li><a href="#">Acerca de</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	</nav>
+	<div class="clear"></div>
+</div>
+<div id="fondo">
+	<fieldset>
+		<legend>Datos personales</legend>
+<form id="formulariohotel" method="post" name="formulariohotel" action="data.php">
+			<div class="alinear"><p><label for="nombre">Nombre</label>
+			<input type="text" name="nombre" id="nombre" maxlength="20" required></p></div>
+			<br>
+			<div class="alinear"><p><label for="apellidos">Apellidos</label>
+			<input type="text" name="apellidos" id="apellidos" maxlength="30" required></p></div>
+			<br>
+			<div class="alinear"><p><label for="email">Email</label>
+			<input type="email" name="email" id="email" maxlenght="40" required></p></div>
+			<br>
+			<div class="alinear"><p><label for="movil">Móvil</label>
+			<input type="tel" name="movil" id="movil" pattern="[\(][0-9]{3}[\)][0-9]{3}-[0-9]{3}" required></p></div>
+			<p class="indicaciones">Formato: (xxx)xxx-xxx</p>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Datos de reserva</legend>
+		<div class="alinear"><p><label for="entrada">Entrada</label>
+		<input type="date" name="fechaentrada" id="fechaentrada" step="1" min="2019-08-01" max="2019-09-01" value="2019-08-01"></p></div>
+		<br>
+		<div class="alinear"><p><label for="salida">Salida</label>
+		<input type="date" name="fechasalida" id="fechasalida" step="1" min="2019-09-01" max="2019-10-01" value="2019-09-01"></p></div>
+		<br>
+		<div class="alinear"><p><label for="adultos">Adultos</label>
+		<input type="number" name="adultos" id="adultos" min="1" max="5"></p></div>
+		<br>
+		<div class="alinear"><p><label for="niños">Niños</label>
+		<input type="number" name="niños" id="niños" min="1" max="5"></p></div>
+		<p class="edad">3 a 12 años</p>
+		<br>
+		<div class="alinear"><p><label for="bebes">Bebés</label>
+		<input type="number" name="bebes" id="bebes" min="1" max="5"></p></div>
+		<p class="edad2">0 a 2 años</p>
+		<br>
+		<div class="alinear"><p><label for="tipo">Tipo de habitación</label>
+			<select id="tipo-habitacion" name="tipo habitacion">
+				<option value="0" selected disabled>Elige tu tipo de habitación</option>
+				<option value="1">Simple</option>
+				<option value="2">Doble</option>
+				<option value="3">Deluxe</option>
+			</select>
+		</p>
+	</div>
+	</fieldset>
+	<br>
+<div class="hoteles"><input type="checkbox" name="hoteles" value="1"><p>Sí. Quiero recibir por medios electrónicos ofertas especiales y actualizaciones del hotel y sus servicios</p></div>
+<br>
+<div class="cookies"><input type="checkbox" name="cookies" value="2"><p>He leído y acepto las CONDICIONES DE USO y la POLÍTICA DE COOKIES
+</p></div>
+<br>
+<div class="registro"><input type="submit" name="btn-submit" id="btn-submit" value="Reservar"></div>
+</form>
+</div>
+<br>
+<div class="footer">
+	<p>Búscanos en redes sociales</p>
+
+	<div class="iconos"><i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-snapchat"></i> <i class="fab fa-pinterest-p"></i> <i class="fab fa-twitter"></i> <i class="fab fa-linkedin-in"></i></div>
+</div>
+
+</body>
+</html>
