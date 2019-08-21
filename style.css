@@ -1,0 +1,571 @@
+﻿* {
+	margin: 0 auto;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+h2 {
+	font-size: 0.9em;
+}
+
+strong {
+	font-size: 0.9em;
+}
+
+a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    }
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+
+.white {
+	color: white;
+}
+
+.black {
+	color: black;
+}
+
+.logo {
+	float: left;
+	text-align: center;
+}
+
+#menu {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	min-height: 40px;
+	padding: 15px 10px 15px 0px;
+	margin: 0 auto;
+	background-color: white;
+	color: grey;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li a {
+	display: hidden;
+	float: left;
+	text-decoration: none;
+	color: grey;
+	background-color: white;
+	padding: 8px 25px;
+	margin-right: 15px;
+	transition: background-color 0.3s linear;
+}
+
+#menu ul li a:hover {
+	display: block;
+	color: black;
+	background-color: white;
+}
+
+.clear {clear:both;}
+
+#grid {
+	display: grid;
+	grid-template-areas: "head head head head"
+							"contenido contenido lateral lateral";
+}
+
+.head {
+	grid-area: head;
+	position: relative;
+	padding: 10px;
+	color: black;
+}
+
+.toy4 {
+	position: absolute;
+	z-index: 1;
+	margin-top: -500px;
+	margin-left: 150px;
+}
+
+.ya {
+	position: absolute;
+	z-index:1;
+	margin-top: -210px;
+	margin-left: 210px;
+	color: white;
+	font-size: 1.1em;
+}
+
+.entradas {
+	position: absolute;
+	z-index: 1;
+	background-color: #E8D264;
+	margin-top: -170px;
+	margin-left: 150px;
+	padding: 15px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.info {
+	position: absolute;
+	z-index: 1;
+	border: 1px solid white;
+	color: white;
+	margin-top: -110px;
+	margin-left: 158px;
+	padding: 15px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.info:hover {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+}
+
+.info a:hover {
+	background-color: white;
+	color: black;
+}
+
+.contenido {
+	grid-area: contenido;
+	position: relative;
+	padding: 10px;
+	color: black;
+}
+
+.zoom img {
+	-moz-transition: all .9s ease;
+}
+
+.zoom:hover img {
+	-moz-transform:scale(1.02);
+}
+
+.leon {
+	position: absolute;
+	z-index:1;
+	margin-top: -230px;
+	margin-left: 140px;
+}
+
+.juliocines {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 0.9em;
+	margin-top: -80px;
+	margin-left: 240px;
+}
+
+.entradas2 {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 0.9em;
+	margin-top: -55px;
+	margin-left: 250px;
+}
+
+.lateral {
+	grid-area: lateral;
+	padding: 10px;
+	color: black;
+}
+
+.aladdin {
+	position: relative;
+}
+
+.titulo {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.5em;
+	margin-top: -220px;
+	margin-left: 50px;
+}
+
+.ya2 {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 0.8em;
+	margin-top: -180px;
+	margin-left: 50px;
+}
+
+.entradas3 {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 0.9em;
+	margin-top: -150px;
+	margin-left: 50px;
+}
+
+.endgame {
+	position: relative;
+}
+
+.titulo2 {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.5em;
+	margin-top: -210px;
+	margin-left: 50px;
+}
+
+.ya3 {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 0.8em;
+	margin-top: -170px;
+	margin-left: 50px;
+}
+
+.entradas4 {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 0.9em;
+	margin-top:-140px;
+	margin-left: 50px;
+}
+
+.proximamente {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#grid2 {
+	display: grid;
+	grid-template-areas: "malefica malefica mulan mulan";
+}
+
+#malefica, #mulan {
+	text-align: left;
+	width: 80%;
+	background-color: lightgrey;
+	padding: 30px;
+}
+
+
+#grid3 {
+	display: grid;
+	grid-template-areas: "mulan onward malefica starwars"
+}
+
+#mulan2 {
+	grid-area: mulan;
+	padding: 10px;
+}
+
+#onward {
+	grid-area: onward;
+	padding: 10px;
+}
+
+#malefica2 {
+	grid-area: malefica;
+	padding: 10px;
+}
+
+#starwars {
+	grid-area: starwars;
+	padding: 10px;
+}
+
+.maspeliculas {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.cinecasa {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#marvel {
+	position: relative;
+}
+
+#capitana {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 3.4em;
+	margin-top: -240px;
+	margin-left: 50px;
+}
+
+#descarga {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 1.2em;
+	margin-top: -160px;
+	margin-left: 50px;
+}
+
+#novedades {
+	position: relative;
+	text-align:center;
+	font-size: 2em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: -200px;
+}
+
+.logotienda {
+	position: absolute;
+	margin-top: -60px;
+	margin-left: 1040px;
+}
+
+#tiendadisney {
+	position: relative;
+	margin-bottom:30px;
+}
+
+#shopdisney {
+	position: absolute;
+	z-index:1;
+	color: black;
+	font-size: 3.2em;
+	margin-top: -240px;
+	margin-left: 50px;
+}
+
+#comprarahora {
+	position: absolute;
+	z-index:1;
+	color: black;
+	font-size: 1.2em;
+	margin-top: -160px;
+	margin-left: 50px;
+}
+
+#menu2 {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	min-height: 40px;
+	padding: 15px 10px 15px 0px;
+	margin: 0 auto;
+	background-color: white;
+	color: grey;
+}
+
+#menu2 ul {
+	list-style-type: none;
+}
+
+#menu2 ul li a {
+	display: hidden;
+	float: left;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 8px 25px;
+	margin-right: 15px;
+	transition: background-color 0.3s linear;
+}
+
+#menu2 ul li a:hover {
+	display: block;
+	color: black;
+	background-color: white;
+}
+
+#iconos {
+	text-align: right;
+	color: black;
+	padding: 10px;
+	margin-right: 50px;
+}
+
+.clear {clear:both;}
+
+#footer {
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	color: black;
+	font-size: 0.8em;
+	padding: 20px;
+}
+
+#grid4 {
+	overflow-x: hidden;
+	display: grid;
+	grid-template-areas: "head2 head2 head2 head2"
+							"contenido2 contenido2 lateral2 lateral2";
+}
+
+.head2 {
+	grid-area: head2;
+	position: relative;
+	padding: 10px;
+	color: black;
+}
+
+.disneyice {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 3.2em;
+	margin-top:-400px;
+	margin-left: 50px;
+}
+
+.magia {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 3.2em;
+	margin-top: -350px;
+	margin-left: 50px;
+}
+
+.entradas5 {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 1.5em;
+	margin-top: -270px;
+	margin-left:50px;
+}
+
+.contenido2 {
+	grid-area: contenido2;
+	position: relative;
+	padding: 5px;
+	color: black;
+}
+
+.king {
+	position: absolute;
+	z-index:1;
+	color: black;
+	font-size: 1.6em;
+	margin-top: -100px;
+	margin-left: 300px;
+}
+
+.entradas6 {
+	position: absolute;
+	z-index:1;
+	color: black;
+	font-size: 0.7em;
+	margin-top: -60px;
+	margin-left: 310px;
+}
+
+.lateral2 {
+	grid-area: lateral2;
+	padding: 5px;
+	color: black;
+}
+
+.concierto {
+	position: relative;
+}
+
+.concert {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 1.6em;
+	margin-top: -250px;
+	margin-left: 300px;
+}
+
+.magical {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 1.6em;
+	margin-top: -220px;
+	margin-left: 345px;
+}
+
+.entradas7 {
+	position: absolute;
+	z-index:1;
+	color: white;
+	font-size: 0.7em;
+	margin-top: -170px;
+	margin-left: 400px;
+}
+
+.contar {
+	position: relative;
+}
+
+.contar {
+	position: relative;
+}
+
+.arte {
+	position: absolute;
+	z-index:1;
+	color: black;
+	font-size: 1.6em;
+	margin-top: -250px;
+	margin-left: 50px;
+}
+
+.historias {
+	position: absolute;
+	z-index:1;
+	color: black;
+	font-size: 1.6em;
+	margin-top: -220px;
+	margin-left: 50px;
+}
+
+.entradas8 {
+	position: absolute;
+	z-index:1;
+	color: black;
+	font-size: 0.7em;
+	margin-top: -170px;
+	margin-left: 50px;
+}
